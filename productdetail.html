@@ -1,0 +1,1811 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>9hangers</title>
+        <meta name="description" content="9hangers" />
+        <meta name="keywords" content="9hangers" />
+        <meta name="robots" content="NOINDEX,FOLLOW" />
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+        
+        <!-- magento default js files -->
+        <script type="text/javascript" src="js/prototype/prototype.js"></script>
+        <script type="text/javascript" src="js/lib/ccard.js"></script>
+        <script type="text/javascript" src="js/prototype/validation.js"></script>
+        <script type="text/javascript" src="js/scriptaculous/builder.js"></script>
+        <script type="text/javascript" src="js/scriptaculous/effects.js"></script>
+        <script type="text/javascript" src="js/scriptaculous/dragdrop.js"></script>
+        <script type="text/javascript" src="js/scriptaculous/controls.js"></script>
+        <script type="text/javascript" src="js/scriptaculous/slider.js"></script>
+        <script type="text/javascript" src="js/varien/js.js"></script>
+        <script type="text/javascript" src="js/varien/form.js"></script>
+        <script type="text/javascript" src="js/mage/translate.js"></script>
+        <script type="text/javascript" src="js/mage/cookies.js"></script>
+        <script type="text/javascript" src="js/varien/weee.js"></script>
+        <script type="text/javascript" src="default/js/lib/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="default/js/lib/modernizr.custom.min.js"></script>
+        <script type="text/javascript" src="default/js/lib/selectivizr.js"></script>
+        <script type="text/javascript" src="default/js/lib/matchMedia.js"></script>
+        <script type="text/javascript" src="default/js/lib/matchMedia.addListener.js"></script>
+        <script type="text/javascript" src="default/js/lib/enquire.js"></script>
+        <script type="text/javascript" src="default/js/app.js"></script>
+        <script type="text/javascript" src="default/js/lib/jquery.cycle2.min.js"></script>
+        <script type="text/javascript" src="default/js/lib/jquery.cycle2.swipe.min.js"></script>
+        <script type="text/javascript" src="default/js/slideshow.js"></script>
+        <script type="text/javascript" src="default/js/lib/imagesloaded.js"></script>
+        <script type="text/javascript" src="default/js/minicart.js"></script>
+        <!-- custom js files -->
+        <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+        <link href="css/jquery.bxslider.css" rel="stylesheet" />
+        <link href="css/responsive.css" rel="stylesheet" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <!-- FlexSlider -->
+        <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+        <script defer src="js/jquery.flexslider.js"></script>
+    </head>
+    <body>
+        <div class="page">
+            <div id="top-header-section">
+                <div class="top-header">
+                    <div class="contact-number"> Need Help? - Contact Us : +1800 000 00</div>
+                    <div class="top-menu-currency">
+                        <ul class="top-menu">
+                            <li class="welcome-msg">Welcome Rehan!</li>
+                            <li> <a href="#">TRACK ORDER</a></li>
+                            <li> <a href="#">MY ACCOUNT</a></li>
+                            <li> <a href="#">LOGOUT</a></li>
+                        </ul>
+                        <div class="currency-select">
+                            <div class="currency-select-box select-container">
+                                <select  title="Select1" class="select">
+                                    <option value="INR">INR</option>
+                                    <option value="US">US</option>
+                                    <option value="UK">UK</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <header id="header">
+                <div class="page-header">
+                    <div class="page-header-container">
+                        <a class="logo" href="#">
+                            <img src="images/logo.jpg" alt="9Hangers" class="large" />
+                            <img src="images/logo.jpg" alt="9Hangers" class="small" />
+                        </a>
+                        <!-- Search -->
+                        <div id="header-search" class="skip-content">
+                            <div class="search-cat-select select-container">
+                                <select title="Select1" class="select">
+                                    <option value="SELECT CATEGORIES">SELECT CATEGORIES</option>
+                                    <option value="Apparel">Apparel</option>
+                                    <option value="Accessories">Accessories</option>
+                                    <option value="Fragrances">Fragrances</option>
+                                    <option value="Intimates">Intimates</option>
+                                    <option value="Jewellery">Jewellery</option>
+                                    <option value="Home Decor & Utilities">Home Decor & Utilities</option>
+                                    <option value=" Object D' Art"> Object D' Art</option>
+                                    <option value="Sports">Sports</option>
+                                    <option value="Electronics">Electronics</option>
+                                </select>
+                            </div>
+                            <form id="search_mini_form" action="http://demo.magentocommerce.com/catalogsearch/result/" method="get">
+                                <div class="input-box">
+                                    <label for="search">Search:</label>
+                                    <input id="search" type="search" name="q" value="" class="input-text required-entry" maxlength="128" placeholder="Search for fasion" />
+                                    <button type="submit" title="Search" class="button search-button">
+                                    <span>
+                                    <span>Search</span>
+                                    </span>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- Skip Links -->
+                        <div class="skip-links">
+                            <a href="#header-nav" class="skip-link skip-nav">
+                                <span class="icon"></span>
+                                <span class="label">Menu</span>
+                            </a>
+                            <a href="#header-search" class="skip-link skip-search">
+                                <span class="icon"></span>
+                                <span class="label">Search</span>
+                            </a>
+                            <!-- <a href="#header-account" class="skip-link skip-account">
+                                <span class="icon"></span>
+                                <span class="label">Account</span>
+                            </a> -->
+                            <!-- Cart -->
+                            <div class="header-minicart">
+                                <a href="#header-cart" class="skip-link skip-cart">
+                                    <span class="icon"></span>
+                                    <span class="label">Cart</span>
+                                    <span class="count">10 <span class="count-text">Items</span> </span>
+                                </a>
+                                <div id="header-cart" class="block block-cart skip-content">
+                                    <div id="minicart-error-message" class="minicart-message"></div>
+                                    <div id="minicart-success-message" class="minicart-message"></div>
+                                    <div class="minicart-wrapper">
+                                        <p class="block-subtitle">Recently added 10 item(s)
+                                        <a class="close skip-link-close" href="#" title="Close">&times;</a>
+                                        </p>
+                                        <p class="empty">You have 10 items in your shopping cart.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Navigation -->
+                        <div id="header-nav" class="skip-content">
+                            <nav id="nav" class="clearfix">
+                                <ol class="nav-primary">
+                                    <li class="level0 nav-1 first">
+                                        <a href="#" class="level0 ">Apparel</a>
+                                        <div class="megamenu">
+                                            <div class="sub-menu">
+                                                <ul class="level0-megamenu">
+                                                    <div class="categories-box">
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> New In</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Clothing</a> </li>
+                                                                <li> <a href="#">Shoes</a> </li>
+                                                                <li> <a href="#">Bags</a> </li>
+                                                                <li> <a href="#">Watches</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> CLOTHING</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Polos & Tees</a> </li>
+                                                                <li> <a href="#">Casual Shirts</a> </li>
+                                                                <li> <a href="#">Casual Trousers</a> </li>
+                                                                <li> <a href="#">Jeans</a> </li>
+                                                                <li> <a href="#">Shorts & 3/4th</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> ACCESSORIES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Belts</a> </li>
+                                                                <li> <a href="#">Pens</a> </li>
+                                                                <li> <a href="#">Eyeglasses</a> </li>
+                                                                <li> <a href="#">Tech Accessories </a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> SHOES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Sports shoes</a> </li>
+                                                                <li> <a href="#">Sneakers</a> </li>
+                                                                <li> <a href="#">Casual Shoes</a> </li>
+                                                                <li> <a href="#">Loafers</a> </li>
+                                                                <li> <a href="#">Formal Shoes</a> </li>
+                                                                <li> <a href="#">Flip Flops</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> PERSONAL GROOMING</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Hair Care</a> </li>
+                                                                <li> <a href="#">Bath & Body</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#">BAGS</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Backpacks</a> </li>
+                                                                <li> <a href="#">Wallets</a> </li>
+                                                                <li> <a href="#">Laptop Bags</a> </li>
+                                                                <li> <a href="#">Travel Bags</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> SUNGLASSES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Aviators</a> </li>
+                                                                <li> <a href="#">Wayfarers</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> WATCHES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Analog</a> </li>
+                                                                <li> <a href="#">Chronograph</a> </li>
+                                                                <li> <a href="#">Digital</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                    </div>
+                                                    <div class="featured-box">
+                                                        <li class="featured">
+                                                            <a href="#">
+                                                                <img src="images/featured-menu.jpg" alt="9 Hangers"/>
+                                                            </a>
+                                                        </li>
+                                                    </div>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="level0 nav-2">
+                                        <a href="#" class="level0 ">Accessories</a>
+                                        <div class="megamenu">
+                                            <div class="sub-menu">
+                                                <ul class="level0-megamenu">
+                                                    <div class="categories-box">
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> New In</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Clothing</a> </li>
+                                                                <li> <a href="#">Shoes</a> </li>
+                                                                <li> <a href="#">Bags</a> </li>
+                                                                <li> <a href="#">Watches</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> CLOTHING</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Polos & Tees</a> </li>
+                                                                <li> <a href="#">Casual Shirts</a> </li>
+                                                                <li> <a href="#">Casual Trousers</a> </li>
+                                                                <li> <a href="#">Jeans</a> </li>
+                                                                <li> <a href="#">Shorts & 3/4th</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> PERSONAL GROOMING</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Hair Care</a> </li>
+                                                                <li> <a href="#">Bath & Body</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#">BAGS</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Backpacks</a> </li>
+                                                                <li> <a href="#">Wallets</a> </li>
+                                                                <li> <a href="#">Laptop Bags</a> </li>
+                                                                <li> <a href="#">Travel Bags</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> SUNGLASSES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Aviators</a> </li>
+                                                                <li> <a href="#">Wayfarers</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> WATCHES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Analog</a> </li>
+                                                                <li> <a href="#">Chronograph</a> </li>
+                                                                <li> <a href="#">Digital</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                    </div>
+                                                    <div class="featured-box">
+                                                        <li class="featured">
+                                                            <a href="#">
+                                                                <img src="images/featured-menu.jpg" alt="9 Hangers"/>
+                                                            </a>
+                                                        </li>
+                                                    </div>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="level0 nav-3">
+                                        <a href="#" class="level0 ">Fragrances</a>
+                                        <div class="megamenu">
+                                            <div class="sub-menu">
+                                                <ul class="level0-megamenu">
+                                                    <div class="categories-box">
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> CLOTHING</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Polos & Tees</a> </li>
+                                                                <li> <a href="#">Casual Shirts</a> </li>
+                                                                <li> <a href="#">Casual Trousers</a> </li>
+                                                                <li> <a href="#">Jeans</a> </li>
+                                                                <li> <a href="#">Shorts & 3/4th</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> ACCESSORIES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Belts</a> </li>
+                                                                <li> <a href="#">Pens</a> </li>
+                                                                <li> <a href="#">Eyeglasses</a> </li>
+                                                                <li> <a href="#">Tech Accessories </a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> New In</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Clothing</a> </li>
+                                                                <li> <a href="#">Shoes</a> </li>
+                                                                <li> <a href="#">Bags</a> </li>
+                                                                <li> <a href="#">Watches</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> PERSONAL GROOMING</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Hair Care</a> </li>
+                                                                <li> <a href="#">Bath & Body</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#">BAGS</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Backpacks</a> </li>
+                                                                <li> <a href="#">Wallets</a> </li>
+                                                                <li> <a href="#">Laptop Bags</a> </li>
+                                                                <li> <a href="#">Travel Bags</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> SUNGLASSES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Aviators</a> </li>
+                                                                <li> <a href="#">Wayfarers</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> WATCHES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Analog</a> </li>
+                                                                <li> <a href="#">Chronograph</a> </li>
+                                                                <li> <a href="#">Digital</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                    </div>
+                                                    <div class="featured-box">
+                                                        <li class="featured">
+                                                            <a href="#">
+                                                                <img src="images/featured-menu.jpg" alt="9 Hangers"/>
+                                                            </a>
+                                                        </li>
+                                                    </div>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="level0 nav-4">
+                                        <a href="#" class="level0 ">Intimates</a>
+                                        <div class="megamenu">
+                                            <div class="sub-menu">
+                                                <ul class="level0-megamenu">
+                                                    <div class="categories-box">
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> New In</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Clothing</a> </li>
+                                                                <li> <a href="#">Shoes</a> </li>
+                                                                <li> <a href="#">Bags</a> </li>
+                                                                <li> <a href="#">Watches</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> CLOTHING</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Polos & Tees</a> </li>
+                                                                <li> <a href="#">Casual Shirts</a> </li>
+                                                                <li> <a href="#">Casual Trousers</a> </li>
+                                                                <li> <a href="#">Jeans</a> </li>
+                                                                <li> <a href="#">Shorts & 3/4th</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> ACCESSORIES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Belts</a> </li>
+                                                                <li> <a href="#">Pens</a> </li>
+                                                                <li> <a href="#">Eyeglasses</a> </li>
+                                                                <li> <a href="#">Tech Accessories </a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> SHOES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Sports shoes</a> </li>
+                                                                <li> <a href="#">Sneakers</a> </li>
+                                                                <li> <a href="#">Casual Shoes</a> </li>
+                                                                <li> <a href="#">Loafers</a> </li>
+                                                                <li> <a href="#">Formal Shoes</a> </li>
+                                                                <li> <a href="#">Flip Flops</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> PERSONAL GROOMING</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Hair Care</a> </li>
+                                                                <li> <a href="#">Bath & Body</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                       
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> WATCHES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Analog</a> </li>
+                                                                <li> <a href="#">Chronograph</a> </li>
+                                                                <li> <a href="#">Digital</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                    </div>
+                                                    <div class="featured-box">
+                                                        <li class="featured">
+                                                            <a href="#">
+                                                                <img src="images/featured-menu.jpg" alt="9 Hangers"/>
+                                                            </a>
+                                                        </li>
+                                                    </div>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="level0 nav-5">
+                                        <a href="#" class="level0 ">Jewellery</a>
+                                        <div class="megamenu">
+                                            <div class="sub-menu">
+                                                <ul class="level0-megamenu">
+                                                    <div class="categories-box">
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> New In</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Clothing</a> </li>
+                                                                <li> <a href="#">Shoes</a> </li>
+                                                                <li> <a href="#">Bags</a> </li>
+                                                                <li> <a href="#">Watches</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> CLOTHING</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Polos & Tees</a> </li>
+                                                                <li> <a href="#">Casual Shirts</a> </li>
+                                                                <li> <a href="#">Casual Trousers</a> </li>
+                                                                <li> <a href="#">Jeans</a> </li>
+                                                                <li> <a href="#">Shorts & 3/4th</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> ACCESSORIES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Belts</a> </li>
+                                                                <li> <a href="#">Pens</a> </li>
+                                                                <li> <a href="#">Eyeglasses</a> </li>
+                                                                <li> <a href="#">Tech Accessories </a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> SHOES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Sports shoes</a> </li>
+                                                                <li> <a href="#">Sneakers</a> </li>
+                                                                <li> <a href="#">Casual Shoes</a> </li>
+                                                                <li> <a href="#">Loafers</a> </li>
+                                                                <li> <a href="#">Formal Shoes</a> </li>
+                                                                <li> <a href="#">Flip Flops</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> PERSONAL GROOMING</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Hair Care</a> </li>
+                                                                <li> <a href="#">Bath & Body</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#">BAGS</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Backpacks</a> </li>
+                                                                <li> <a href="#">Wallets</a> </li>
+                                                                <li> <a href="#">Laptop Bags</a> </li>
+                                                                <li> <a href="#">Travel Bags</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> WATCHES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Analog</a> </li>
+                                                                <li> <a href="#">Chronograph</a> </li>
+                                                                <li> <a href="#">Digital</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                    </div>
+                                                    <div class="featured-box">
+                                                        <li class="featured">
+                                                            <a href="#">
+                                                                <img src="images/featured-menu.jpg" alt="9 Hangers"/>
+                                                            </a>
+                                                        </li>
+                                                    </div>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="level0 nav-6">
+                                        <a href="#" class="level0 ">Home Decor & Utilities</a>
+                                        <div class="megamenu">
+                                            <div class="sub-menu">
+                                                <ul class="level0-megamenu">
+                                                    <div class="categories-box">
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> New In</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Clothing</a> </li>
+                                                                <li> <a href="#">Shoes</a> </li>
+                                                                <li> <a href="#">Bags</a> </li>
+                                                                <li> <a href="#">Watches</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> CLOTHING</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Polos & Tees</a> </li>
+                                                                <li> <a href="#">Casual Shirts</a> </li>
+                                                                <li> <a href="#">Casual Trousers</a> </li>
+                                                                <li> <a href="#">Jeans</a> </li>
+                                                                <li> <a href="#">Shorts & 3/4th</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> ACCESSORIES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Belts</a> </li>
+                                                                <li> <a href="#">Pens</a> </li>
+                                                                <li> <a href="#">Eyeglasses</a> </li>
+                                                                <li> <a href="#">Tech Accessories </a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> SHOES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Sports shoes</a> </li>
+                                                                <li> <a href="#">Sneakers</a> </li>
+                                                                <li> <a href="#">Casual Shoes</a> </li>
+                                                                <li> <a href="#">Loafers</a> </li>
+                                                                <li> <a href="#">Formal Shoes</a> </li>
+                                                                <li> <a href="#">Flip Flops</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> PERSONAL GROOMING</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Hair Care</a> </li>
+                                                                <li> <a href="#">Bath & Body</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#">BAGS</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Backpacks</a> </li>
+                                                                <li> <a href="#">Wallets</a> </li>
+                                                                <li> <a href="#">Laptop Bags</a> </li>
+                                                                <li> <a href="#">Travel Bags</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> SUNGLASSES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Aviators</a> </li>
+                                                                <li> <a href="#">Wayfarers</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        
+                                                    </div>
+                                                    <div class="featured-box">
+                                                        <li class="featured">
+                                                            <a href="#">
+                                                                <img src="images/featured-menu.jpg" alt="9 Hangers"/>
+                                                            </a>
+                                                        </li>
+                                                    </div>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="level0 nav-7">
+                                        <a href="#" class="level0 "> Object D' Art</a>
+                                        <div class="megamenu">
+                                            <div class="sub-menu">
+                                                <ul class="level0-megamenu">
+                                                    <div class="categories-box">
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> New In</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Clothing</a> </li>
+                                                                <li> <a href="#">Shoes</a> </li>
+                                                                <li> <a href="#">Bags</a> </li>
+                                                                <li> <a href="#">Watches</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> CLOTHING</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Polos & Tees</a> </li>
+                                                                <li> <a href="#">Casual Shirts</a> </li>
+                                                                <li> <a href="#">Casual Trousers</a> </li>
+                                                                <li> <a href="#">Jeans</a> </li>
+                                                                <li> <a href="#">Shorts & 3/4th</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> ACCESSORIES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Belts</a> </li>
+                                                                <li> <a href="#">Pens</a> </li>
+                                                                <li> <a href="#">Eyeglasses</a> </li>
+                                                                <li> <a href="#">Tech Accessories </a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> SHOES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Sports shoes</a> </li>
+                                                                <li> <a href="#">Sneakers</a> </li>
+                                                                <li> <a href="#">Casual Shoes</a> </li>
+                                                                <li> <a href="#">Loafers</a> </li>
+                                                                <li> <a href="#">Formal Shoes</a> </li>
+                                                                <li> <a href="#">Flip Flops</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> SUNGLASSES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Aviators</a> </li>
+                                                                <li> <a href="#">Wayfarers</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> WATCHES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Analog</a> </li>
+                                                                <li> <a href="#">Chronograph</a> </li>
+                                                                <li> <a href="#">Digital</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> PERSONAL GROOMING</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Hair Care</a> </li>
+                                                                <li> <a href="#">Bath & Body</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#">BAGS</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Backpacks</a> </li>
+                                                                <li> <a href="#">Wallets</a> </li>
+                                                                <li> <a href="#">Laptop Bags</a> </li>
+                                                                <li> <a href="#">Travel Bags</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                    </div>
+                                                    <div class="featured-box">
+                                                        <li class="featured">
+                                                            <a href="#">
+                                                                <img src="images/featured-menu.jpg" alt="9 Hangers"/>
+                                                            </a>
+                                                        </li>
+                                                    </div>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="level0 nav-8">
+                                        <a href="#" class="level0 ">Sports</a>
+                                        <div class="megamenu">
+                                            <div class="sub-menu">
+                                                <ul class="level0-megamenu">
+                                                    <div class="categories-box">
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> New In</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Clothing</a> </li>
+                                                                <li> <a href="#">Shoes</a> </li>
+                                                                <li> <a href="#">Bags</a> </li>
+                                                                <li> <a href="#">Watches</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> CLOTHING</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Polos & Tees</a> </li>
+                                                                <li> <a href="#">Casual Shirts</a> </li>
+                                                                <li> <a href="#">Casual Trousers</a> </li>
+                                                                <li> <a href="#">Jeans</a> </li>
+                                                                <li> <a href="#">Shorts & 3/4th</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> ACCESSORIES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Belts</a> </li>
+                                                                <li> <a href="#">Pens</a> </li>
+                                                                <li> <a href="#">Eyeglasses</a> </li>
+                                                                <li> <a href="#">Tech Accessories </a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> SHOES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Sports shoes</a> </li>
+                                                                <li> <a href="#">Sneakers</a> </li>
+                                                                <li> <a href="#">Casual Shoes</a> </li>
+                                                                <li> <a href="#">Loafers</a> </li>
+                                                                <li> <a href="#">Formal Shoes</a> </li>
+                                                                <li> <a href="#">Flip Flops</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> PERSONAL GROOMING</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Hair Care</a> </li>
+                                                                <li> <a href="#">Bath & Body</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> SUNGLASSES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Aviators</a> </li>
+                                                                <li> <a href="#">Wayfarers</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> WATCHES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Analog</a> </li>
+                                                                <li> <a href="#">Chronograph</a> </li>
+                                                                <li> <a href="#">Digital</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#">BAGS</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Backpacks</a> </li>
+                                                                <li> <a href="#">Wallets</a> </li>
+                                                                <li> <a href="#">Laptop Bags</a> </li>
+                                                                <li> <a href="#">Travel Bags</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        
+                                                    </div>
+                                                    <div class="featured-box">
+                                                        <li class="featured">
+                                                            <a href="#">
+                                                                <img src="images/featured-menu.jpg" alt="9 Hangers"/>
+                                                            </a>
+                                                        </li>
+                                                    </div>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="level0 nav-9 last">
+                                        <a href="#" class="level0 ">Electronics</a>
+                                        <div class="megamenu">
+                                            <div class="sub-menu">
+                                                <ul class="level0-megamenu">
+                                                    <div class="categories-box">
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> New In</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Clothing</a> </li>
+                                                                <li> <a href="#">Shoes</a> </li>
+                                                                <li> <a href="#">Bags</a> </li>
+                                                                <li> <a href="#">Watches</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> ACCESSORIES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Belts</a> </li>
+                                                                <li> <a href="#">Pens</a> </li>
+                                                                <li> <a href="#">Eyeglasses</a> </li>
+                                                                <li> <a href="#">Tech Accessories </a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> CLOTHING</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Polos & Tees</a> </li>
+                                                                <li> <a href="#">Casual Shirts</a> </li>
+                                                                <li> <a href="#">Casual Trousers</a> </li>
+                                                                <li> <a href="#">Jeans</a> </li>
+                                                                <li> <a href="#">Shorts & 3/4th</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> SHOES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Sports shoes</a> </li>
+                                                                <li> <a href="#">Sneakers</a> </li>
+                                                                <li> <a href="#">Casual Shoes</a> </li>
+                                                                <li> <a href="#">Loafers</a> </li>
+                                                                <li> <a href="#">Formal Shoes</a> </li>
+                                                                <li> <a href="#">Flip Flops</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> PERSONAL GROOMING</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Hair Care</a> </li>
+                                                                <li> <a href="#">Bath & Body</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#">BAGS</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Backpacks</a> </li>
+                                                                <li> <a href="#">Wallets</a> </li>
+                                                                <li> <a href="#">Laptop Bags</a> </li>
+                                                                <li> <a href="#">Travel Bags</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> SUNGLASSES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Aviators</a> </li>
+                                                                <li> <a href="#">Wayfarers</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li class="level1-megamenu">
+                                                            <div class="level1-title">
+                                                                <a href="#"> WATCHES</a>
+                                                            </div>
+                                                            <ol class="level2-megamenu">
+                                                                <li> <a href="#">Analog</a> </li>
+                                                                <li> <a href="#">Chronograph</a> </li>
+                                                                <li> <a href="#">Digital</a> </li>
+                                                            </ol>
+                                                        </li>
+                                                    </div>
+                                                    <div class="featured-box">
+                                                        <li class="featured">
+                                                            <a href="#">
+                                                                <img src="images/featured-menu.jpg" alt="9 Hangers"/>
+                                                            </a>
+                                                        </li>
+                                                    </div>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ol>
+                            </nav>
+                        </div>
+                        
+                    </div>
+                </div>
+            </header>
+            
+            <div class="main-container col1-layout">
+                <div class="main">
+                    <div class="breadcrumbs">
+                        <ul>
+                            <li class="home"><a title="Go to Home Page" href="#">Home</a><span> &gt; </span></li>
+                            <li class="category5"><a title="" href="#">Woman</a><span> &gt; </span></li>
+                            <li class="category15"><strong>Bags</strong></li>
+                        </ul>
+                    </div> <!-- breadcrumbs -->
+                    <div class="col-main">
+                        <div class="category-title"><h2>WOMEN</h2></div>
+                        <div class="product-view">
+                            <div class="product-essential">
+                                <div class="product-img-box">
+                                    <div id="product-slider" class="flexslider">
+                                        <ul class="slides">
+                                            <li>
+                                                <img src="images/product/productdetail_03.jpg" />
+                                            </li>
+                                            <li>
+                                                <img src="images/product/productdetail_03.jpg" />
+                                            </li>
+                                            <li>
+                                                <img src="images/product/productdetail_03.jpg" />
+                                            </li>
+                                            <li>
+                                                <img src="images/product/productdetail_03.jpg" />
+                                            </li>
+                                            <li>
+                                                <img src="images/product/productdetail_03.jpg" />
+                                            </li>
+                                            <li>
+                                                <img src="images/product/productdetail_03.jpg" />
+                                            </li>
+                                            <li>
+                                                <img src="images/product/productdetail_03.jpg" />
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div id="carousel" class="flexslider">
+                                        <ul class="slides">
+                                            <li>
+                                                <img src="images/product/productdetail_07.jpg" />
+                                            </li>
+                                            <li>
+                                                <img src="images/product/productdetail_09.jpg" />
+                                            </li>
+                                            <li>
+                                                <img src="images/product/productdetail_11.jpg" />
+                                            </li>
+                                            <li>
+                                                <img src="images/product/productdetail_13.jpg" />
+                                            </li>
+                                            <li>
+                                                <img src="images/product/productdetail_09.jpg" />
+                                            </li>
+                                            <li>
+                                                <img src="images/product/productdetail_07.jpg" />
+                                            </li>
+                                            <li>
+                                                <img src="images/product/productdetail_11.jpg" />
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-shop">
+                                    <div class="product-name">
+                                        <span class="h1"> Pink Sling Bag</span>
+                                    </div>
+                                    <div class="deal_timer">
+                                        <ul>
+                                            <li class="day"><span class="num">06</span> <span>Days</span></li>
+                                            <span class="seperator">:</span>
+                                            <li class="hour"><span class="num">43</span> <span>Hours</span></li>
+                                            <span class="seperator">:</span>
+                                            <li class="min"><span class="num">76</span> <span>Min</span></li>
+                                            <span class="seperator">:</span>
+                                            <li class="sec"><span class="num">06</span> <span>Sec</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="price-info">
+                                        <span class="price">Rs. 1500</span>
+                                    </div>
+                                    <div id="product-options-wrapper" class="product-options">
+                                        <div class="size_box col-2">
+                                            <label for="size">SELECT SIZE</label>
+                                            <div class="size_btns">
+                                                <span>S</span>
+                                                <span>M</span>
+                                            </div>
+                                        </div>
+                                        <div class="qty-wrapper col-2"> 
+                                            <label for="qty">QTY</label>
+                                            <div class="qty_btns">
+                                                <span class="minus"> &minus;    </span>
+                                                <input type="text" id="qty" class="input-text qty" value="1">
+                                                <span class="plus"> &#43;  </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="short-description">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software Lorem Ipsum.
+                                    </div>
+                                    <div class="actions">
+                                        <div class="add-to-cart-buttons">
+                                            <button class="button btn-cart" title="Add to Cart" type="button">
+                                                <span>
+                                                    <span>Add to Cart</span>
+                                                </span>
+                                            </button>
+                                        </div>
+                                        <ul class="add-to-links">
+                                            <li><a class="link-wishlist" href="#">Wishlist</a></li>
+                                            <li><a class="link-compare" href="#">Compare</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-extra-options">
+                                        <ul>
+                                            <li>
+                                                <span class="free_returns">30 Days Free Returns</span>
+                                            </li>
+                                            <li>
+                                                <span class="cod">Cash on Delivery</span>
+                                            </li>
+                                            <li>
+                                                <span class="gift_wrap">Gift Wrap Available</span>
+                                            </li>
+                                            <li>
+                                                <span class="authentic">100% Authentic</span>
+                                            </li>
+                                        </ul>   
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="product-collateral">
+                                <div class="col-2 product-brief-desc">
+                                    <h3> Product Info & Care</h3>
+                                    <p>
+                                        Add a dash of colour to your casual look by buying this pink coloured sling bag for women from P.H.A.T. Made from PU (polyurethane), this bag features a really trendy design that works with almost all the outfits that you have in your wardrobe. You can team this bag with casuals of your choice to complete your look. Add a dash of colour to your casual look by buying this pink coloured sling bag for women from look.
+                                    </p> 
+                                    <ul class="add_info">
+                                        <li><span class="label">Extra Handle</span> <span class="data">No</span></li>
+                                        <li><span class="label">Number of Compartments</span> <span class="data">2</span></li>
+                                        <li><span class="label">No. of  Pockets</span> <span class="data">2</span></li>
+                                        <li><span class="label">Color</span> <span class="data">Pink</span></li>
+                                        <li><span class="label">Material</span> <span class="data">PU</span></li>
+                                        <li><span class="label">Product Dimensions</span> <span class="data">L-8xW-1.5xH-5.5Inch</span></li>
+                                        <li><span class="label">No. of Zips</span> <span class="data">1</span></li>
+                                        <li><span class="label">SKU</span> <span class="data">PH445BG72FOLINDFAS</span></li>
+                                    </ul>   
+                                </div>
+                                <div class="col-2 cust-review">
+                                    <div class="review_text">
+                                        <h3>Customer reviews for p.h.a.t pink sling bag</h3>
+                                        <p>No reviews found. </p>
+                                        <p>Be the first to <strong>write a review</strong> about this product</p>
+                                    </div>
+                                    <div class="review_form">
+                                        <h3>WRITE YOUR REVIEW</h3>
+                                        <div class="ratings">
+                                            <span>HOW DO YOU RATE THIS PRODUCT</span>
+                                            <ul>
+                                                <li class="yellow"> &nbsp;</li>
+                                                <li class="yellow"> &nbsp;</li>
+                                                <li class="yellow"> &nbsp;</li>
+                                                <li> &nbsp;</li>
+                                                <li> &nbsp;</li>
+                                            </ul>
+                                            <form>
+                                                <input type="text" placeholder="Name" value="" />
+                                                <input class="last" type="text" placeholder="Review Title" value="" />
+                                                <textarea placeholder="Write your review here"> </textarea>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="recentlyview interest_in">
+                                <h2>YOU MAY ALSO INTERESTED IN </h2>
+                                    <ul class="products-grid products-grid-99999max-4-col first last odd" id="showinterest">
+                                        <li class="item">
+                                            <a class="product-image" title="Lorem Ipsum" href="#">
+                                                <img alt="" src="images/product/recently_viewed_05.jpg" id="product-collection-image-1">
+                                            </a>
+                                            <div class="product-info">
+                                                <h2 class="product-name">
+                                                    <a title="" href="#">Ellen Tote Green Handbag</a>
+                                                </h2>
+                                                <div class="price-box">
+                                                    <span id="product-price-1" class="regular-price">
+                                                        <span class="price">Rs.1550</span>
+                                                    </span>
+                                                </div>
+                                                <div class="actions">
+                                                    <div class="add-to-cart-buttons">
+                                                        <button class="button btn-cart" title="Add to Cart" type="button">
+                                                            <span>
+                                                                <span>Add to Cart</span>
+                                                            </span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <a class="product-image" title="Lorem Ipsum" href="#">
+                                                <img alt="" src="images/product/recently_viewed_07.jpg" id="product-collection-image-2">
+                                            </a>
+                                            <div class="product-info">
+                                                <h2 class="product-name">
+                                                        <a title="" href="#">Ellen Tote Green Handbag</a>
+                                                    </h2>
+                                                <div class="price-box">
+                                                    <span id="product-price-2" class="regular-price">
+                                                        <span class="price">Rs.1550</span>
+                                                    </span>
+                                                </div>
+                                                    
+                                                    <div class="actions">
+                                                        <div class="add-to-cart-buttons">
+                                                            <button class="button btn-cart" title="Add to Cart" type="button">
+                                                                <span>
+                                                                    <span>Add to Cart</span>
+                                                                </span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <a class="product-image" title="Lorem Ipsum" href="#">
+                                                <img alt="" src="images/product/recently_viewed_09.jpg" id="product-collection-image-3">
+                                            </a>
+                                            <div class="product-info">
+                                                <h2 class="product-name">
+                                                    <a title="" href="#">Ellen Tote Green Handbag</a>
+                                                </h2>
+                                                <div class="price-box">
+                                                    <span id="product-price-3" class="regular-price">
+                                                        <span class="price">Rs.750</span>
+                                                    </span>
+                                                </div>
+                                                <div class="actions">
+                                                    <div class="add-to-cart-buttons">
+                                                        <button class="button btn-cart" title="Add to Cart" type="button">
+                                                            <span>
+                                                                <span>Add to Cart</span>
+                                                            </span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <a class="product-image" title="Lorem Ipsum" href="#">
+                                                <img alt="" src="images/product/recently_viewed_11.jpg" id="product-collection-image-4">
+                                            </a>
+                                            <div class="product-info">
+                                                <h2 class="product-name">
+                                                    <a title="" href="#">Ellen Tote Green Handbag</a>
+                                                </h2>
+                                                <div class="price-box">
+                                                    <span id="product-price-4" class="regular-price">
+                                                        <span class="price">Rs.750</span>
+                                                    </span>
+                                                </div>
+                                                <div class="actions">
+                                                    <div class="add-to-cart-buttons">
+                                                        <button class="button btn-cart" title="Add to Cart" type="button">
+                                                            <span>
+                                                                <span>Add to Cart</span>
+                                                            </span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <a class="product-image" title="Lorem Ipsum" href="#">
+                                                <img alt="" src="images/product/recently_viewed_07.jpg" id="product-collection-image-5">
+                                            </a>
+                                            <div class="product-info">
+                                                <h2 class="product-name">
+                                                    <a title="" href="#">Ellen Tote Green Handbag</a>
+                                                </h2>
+                                                <div class="price-box">
+                                                    <span id="product-price-5" class="regular-price">
+                                                        <span class="price">Rs.750</span>
+                                                    </span>
+                                                </div>
+                                                <div class="actions">
+                                                    <div class="add-to-cart-buttons">
+                                                        <button class="button btn-cart" title="Add to Cart" type="button">
+                                                            <span>
+                                                                <span>Add to Cart</span>
+                                                            </span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <a class="product-image" title="Lorem Ipsum" href="#">
+                                                <img alt="" src="images/product/recently_viewed_09.jpg" id="product-collection-image-6">
+                                            </a>
+                                            <div class="product-info">
+                                                <h2 class="product-name">
+                                                    <a title="" href="#">Ellen Tote Green Handbag</a>
+                                                </h2>
+                                                <div class="price-box">
+                                                    <span id="product-price-6" class="regular-price">
+                                                        <span class="price">Rs.1550</span>
+                                                    </span>
+                                                </div>
+                                                <div class="actions">
+                                                    <div class="add-to-cart-buttons">
+                                                        <button class="button btn-cart" title="Add to Cart" type="button">
+                                                            <span>
+                                                                <span>Add to Cart</span>
+                                                            </span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <a class="product-image" title="Lorem Ipsum" href="#">
+                                                <img alt="" src="images/product/recently_viewed_05.jpg" id="product-collection-image-7">
+                                            </a>
+                                            <div class="product-info">
+                                                <h2 class="product-name">
+                                                    <a title="" href="#">Ellen Tote Green Handbag</a>
+                                                </h2>
+                                                <div class="price-box">
+                                                    <span id="product-price-7" class="regular-price">
+                                                        <span class="price">Rs.1550</span>
+                                                    </span>
+                                                </div>
+                                                <div class="actions">
+                                                    <div class="add-to-cart-buttons">
+                                                        <button class="button btn-cart" title="Add to Cart" type="button">
+                                                            <span>
+                                                                <span>Add to Cart</span>
+                                                            </span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <a class="product-image" title="Lorem Ipsum" href="#">
+                                                <img alt="" src="images/product/recently_viewed_11.jpg" id="product-collection-image-8">
+                                            </a>
+                                            <div class="product-info">
+                                                <h2 class="product-name">
+                                                    <a title="" href="#">Ellen Tote Green Handbag</a>
+                                                </h2>
+                                                <div class="price-box">
+                                                    <span id="product-price-8" class="regular-price">
+                                                        <span class="price">Rs.750</span>
+                                                    </span>
+                                                </div>
+                                                <div class="actions">
+                                                    <div class="add-to-cart-buttons">
+                                                        <button class="button btn-cart" title="Add to Cart" type="button">
+                                                            <span>
+                                                                <span>Add to Cart</span>
+                                                            </span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                        </div> <!-- recentlyview -->
+
+                        <div class="recentlyview">
+                                <h2>RECENTLY VIEWED</h2>
+                                    <ul class="products-grid products-grid-99999max-4-col first last odd" id="recenetviewslider">
+                                        <li class="item">
+                                            <a class="product-image" title="Lorem Ipsum" href="#">
+                                                <img alt="" src="images/product/recently_viewed_05.jpg" id="product-collection-image-1">
+                                            </a>
+                                            <div class="product-info">
+                                                <div class="price-box">
+                                                    <span id="product-price-1" class="regular-price">
+                                                        <span class="price">Rs.1550</span>
+                                                    </span>
+                                                </div>
+                                                <h2 class="product-name">
+                                                    <a title="" href="#">Ellen Tote Green Handbag</a>
+                                                </h2>
+                                                <div class="actions">
+                                                    <div class="add-to-cart-buttons">
+                                                        <button class="button btn-cart" title="Add to Cart" type="button">
+                                                            <span>
+                                                                <span>Add to Cart</span>
+                                                            </span>
+                                                        </button>
+                                                    </div>
+                                                    <ul class="add-to-links">
+                                                        <li><a class="link-wishlist" href="#">Wishlist</a></li>
+                                                        <li><a class="link-compare" href="#">Compare</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <a class="product-image" title="Lorem Ipsum" href="#">
+                                                <img alt="" src="images/product/recently_viewed_07.jpg" id="product-collection-image-2">
+                                            </a>
+                                            <div class="product-info">
+                                                <div class="price-box">
+                                                    <span id="product-price-2" class="regular-price">
+                                                        <span class="price">Rs.1550</span>
+                                                    </span>
+                                                </div>
+                                                    <h2 class="product-name">
+                                                        <a title="" href="#">Ellen Tote Green Handbag</a>
+                                                    </h2>
+                                                    <div class="actions">
+                                                        <div class="add-to-cart-buttons">
+                                                            <button class="button btn-cart" title="Add to Cart" type="button">
+                                                                <span>
+                                                                    <span>Add to Cart</span>
+                                                                </span>
+                                                            </button>
+                                                        </div>
+                                                        <ul class="add-to-links">
+                                                            <li><a class="link-wishlist" href="#">Wishlist</a></li>
+                                                            <li><a class="link-compare" href="#">Compare</a></li>
+                                                        </ul>
+                                                    </div>
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <a class="product-image" title="Lorem Ipsum" href="#">
+                                                <img alt="" src="images/product/recently_viewed_09.jpg" id="product-collection-image-3">
+                                            </a>
+                                            <div class="product-info">
+                                                <div class="price-box">
+                                                    <span id="product-price-3" class="regular-price">
+                                                        <span class="price">Rs.750</span>
+                                                    </span>
+                                                </div>
+                                                <h2 class="product-name">
+                                                    <a title="" href="#">Ellen Tote Green Handbag</a>
+                                                </h2>
+                                                <div class="actions">
+                                                    <div class="add-to-cart-buttons">
+                                                        <button class="button btn-cart" title="Add to Cart" type="button">
+                                                            <span>
+                                                                <span>Add to Cart</span>
+                                                            </span>
+                                                        </button>
+                                                    </div>
+                                                    <ul class="add-to-links">
+                                                        <li><a class="link-wishlist" href="#">Wishlist</a></li>
+                                                        <li><a class="link-compare" href="#">Compare</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <a class="product-image" title="Lorem Ipsum" href="#">
+                                                <img alt="" src="images/product/recently_viewed_11.jpg" id="product-collection-image-4">
+                                            </a>
+                                            <div class="product-info">
+                                                <div class="price-box">
+                                                    <span id="product-price-4" class="regular-price">
+                                                        <span class="price">Rs.750</span>
+                                                    </span>
+                                                </div>
+                                                <h2 class="product-name">
+                                                    <a title="" href="#">Ellen Tote Green Handbag</a>
+                                                </h2>
+                                                <div class="actions">
+                                                    <div class="add-to-cart-buttons">
+                                                        <button class="button btn-cart" title="Add to Cart" type="button">
+                                                            <span>
+                                                                <span>Add to Cart</span>
+                                                            </span>
+                                                        </button>
+                                                    </div>
+                                                    <ul class="add-to-links">
+                                                        <li><a class="link-wishlist" href="#">Wishlist</a></li>
+                                                        <li><a class="link-compare" href="#">Compare</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <a class="product-image" title="Lorem Ipsum" href="#">
+                                                <img alt="" src="images/product/recently_viewed_07.jpg" id="product-collection-image-5">
+                                            </a>
+                                            <div class="product-info">
+                                                <div class="price-box">
+                                                    <span id="product-price-5" class="regular-price">
+                                                        <span class="price">Rs.750</span>
+                                                    </span>
+                                                </div>
+                                                <h2 class="product-name">
+                                                    <a title="" href="#">Ellen Tote Green Handbag</a>
+                                                </h2>
+                                                <div class="actions">
+                                                    <div class="add-to-cart-buttons">
+                                                        <button class="button btn-cart" title="Add to Cart" type="button">
+                                                            <span>
+                                                                <span>Add to Cart</span>
+                                                            </span>
+                                                        </button>
+                                                    </div>
+                                                    <ul class="add-to-links">
+                                                        <li><a class="link-wishlist" href="#">Wishlist</a></li>
+                                                        <li><a class="link-compare" href="#">Compare</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <a class="product-image" title="Lorem Ipsum" href="#">
+                                                <img alt="" src="images/product/recently_viewed_09.jpg" id="product-collection-image-6">
+                                            </a>
+                                            <div class="product-info">
+                                                <div class="price-box">
+                                                    <span id="product-price-6" class="regular-price">
+                                                        <span class="price">Rs.1550</span>
+                                                    </span>
+                                                </div>
+                                                <h2 class="product-name">
+                                                    <a title="" href="#">Ellen Tote Green Handbag</a>
+                                                </h2>
+                                                <div class="actions">
+                                                    <div class="add-to-cart-buttons">
+                                                        <button class="button btn-cart" title="Add to Cart" type="button">
+                                                            <span>
+                                                                <span>Add to Cart</span>
+                                                            </span>
+                                                        </button>
+                                                    </div>
+                                                    <ul class="add-to-links">
+                                                        <li><a class="link-wishlist" href="#">Wishlist</a></li>
+                                                        <li><a class="link-compare" href="#">Compare</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <a class="product-image" title="Lorem Ipsum" href="#">
+                                                <img alt="" src="images/product/recently_viewed_05.jpg" id="product-collection-image-7">
+                                            </a>
+                                            <div class="product-info">
+                                                <div class="price-box">
+                                                    <span id="product-price-7" class="regular-price">
+                                                        <span class="price">Rs.1550</span>
+                                                    </span>
+                                                </div>
+                                                <h2 class="product-name">
+                                                    <a title="" href="#">Ellen Tote Green Handbag</a>
+                                                </h2>
+                                                <div class="actions">
+                                                    <div class="add-to-cart-buttons">
+                                                        <button class="button btn-cart" title="Add to Cart" type="button">
+                                                            <span>
+                                                                <span>Add to Cart</span>
+                                                            </span>
+                                                        </button>
+                                                    </div>
+                                                    <ul class="add-to-links">
+                                                        <li><a class="link-wishlist" href="#">Wishlist</a></li>
+                                                        <li><a class="link-compare" href="#">Compare</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <a class="product-image" title="Lorem Ipsum" href="#">
+                                                <img alt="" src="images/product/recently_viewed_11.jpg" id="product-collection-image-8">
+                                            </a>
+                                            <div class="product-info">
+                                                <div class="price-box">
+                                                    <span id="product-price-8" class="regular-price">
+                                                        <span class="price">Rs.750</span>
+                                                    </span>
+                                                </div>
+                                                <h2 class="product-name">
+                                                    <a title="" href="#">Ellen Tote Green Handbag</a>
+                                                </h2>
+                                                <div class="actions">
+                                                    <div class="add-to-cart-buttons">
+                                                        <button class="button btn-cart" title="Add to Cart" type="button">
+                                                            <span>
+                                                                <span>Add to Cart</span>
+                                                            </span>
+                                                        </button>
+                                                    </div>
+                                                    <ul class="add-to-links">
+                                                        <li><a class="link-wishlist" href="#">Wishlist</a></li>
+                                                        <li><a class="link-compare" href="#">Compare</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                        </div> <!-- recentlyview -->
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="footer-container">
+                    <div class="footer">
+                        <div class="footer-section1">
+                            <div class="block block-subscribe">
+                                <div class="block-title"><strong><span>NEWSLETTER SIGNUP</span></strong></div>
+                                <form action="#" method="post" id="newsletter-validate-detail">
+                                    <div class="block-content">
+                                        <div class="form-subscribe-text">Subscribe to our e-mail newsletter to receive updates.</div>
+                                        <div class="form-subscribe-header"><label for="newsletter">Sign Up for Our Newsletter:</label></div>
+                                        <div class="input-box">
+                                            <input type="email" id="newsletter" title="Sign up for our newsletter" class="input-text" value="Email Address" />
+                                        </div>
+                                        <div class="actions">
+                                            <button type="submit" title="Subscribe" class="button">
+                                                <span><span>Subscribe</span></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="block-title"><strong><span>JOIN US</span></strong></div>
+                                <ul>
+                                    <li><a href="#">facebook</a></li>
+                                    <li><a href="#">google</a></li>
+                                    <li><a href="#">in</a></li>
+                                    <li><a href="#">twitter</a></li>
+                                </ul>
+                            </div>
+                            <div class="links">
+                                <div class="block-title"><strong><span>Shop</span></strong></div>
+                                <ul>
+                                    <li><a href="#">Men</a></li>
+                                    <li><a href="#">Woman</a></li>
+                                    <li><a href="#">Kids</a></li>
+                                    <li><a href="#">Premium</a></li>
+                                    <li><a href="#">Look Good</a></li>
+                                    <li><a href="#">Sale</a></li>
+                                </ul>
+                            </div>
+                            <div class="links">
+                                <div class="block-title"><strong><span>Help</span></strong></div>
+                                <ul>
+                                    <li><a href="#">FAQ's</a></li>
+                                    <li><a href="#">Glossary</a></li>
+                                    <li><a href="#">Track Orders</a></li>
+                                    <li><a href="#">Shipping</a></li>
+                                    <li><a href="#">Cancellations</a></li>
+                                    <li><a href="#">Return</a></li>
+                                </ul>
+                            </div>
+                            <div class="links">
+                                <div class="block-title"><strong><span>Know 9hangers</span></strong></div>
+                                <ul>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Corporate Blog</a></li>
+                                    <li><a href="#">Responsible</a></li>
+                                    <li><a href="#">Disclosure Policy</a></li>
+                                </ul>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div> <!-- footer-section1 -->
+                            <div class="footer-section2">
+                                <div class="links">
+                                    <div class="block-title"><strong><span>Top Brands</span></strong></div>
+                                    <ul>
+                                        <li><a href="#">AND</a></li>
+                                        <li><a href="#">Adidas</a></li>
+                                        <li><a href="#">Adidas Orignals</a></li>
+                                        <li><a href="#">Allen Solly</a></li>
+                                        <li><a href="#">American Derby Polo Club</a></li>
+                                        <li><a href="#">American Tourister</a></li>
+                                        <li><a href="#">Andrew Hill</a></li>
+                                        <li><a href="#">Arrow</a></li>
+                                        <li><a href="#">Asics</a></li>
+                                        <li><a href="#">Aurelia</a></li>
+                                        <li><a href="#">Baggit</a></li>
+                                        <li><a href="#">Biba</a></li>
+                                    </ul>
+                                </div>
+                                <div class="links">
+                                    <ul>
+                                        <li><a href="#">AND</a></li>
+                                        <li><a href="#">Adidas</a></li>
+                                        <li><a href="#">Adidas Orignals</a></li>
+                                        <li><a href="#">Allen Solly</a></li>
+                                        <li><a href="#">American Derby Polo Club</a></li>
+                                        <li><a href="#">American Tourister</a></li>
+                                        <li><a href="#">Andrew Hill</a></li>
+                                        <li><a href="#">Arrow</a></li>
+                                        <li><a href="#">Asics</a></li>
+                                        <li><a href="#">Aurelia</a></li>
+                                        <li><a href="#">Baggit</a></li>
+                                        <li><a href="#">Biba</a></li>
+                                    </ul>
+                                </div>
+                                <div class="links">
+                                    <div class="block-title"><strong><span>Top Categories</span></strong></div>
+                                    <ul>
+                                        <li><a href="#">AND</a></li>
+                                        <li><a href="#">Adidas</a></li>
+                                        <li><a href="#">Adidas Orignals</a></li>
+                                        <li><a href="#">Allen Solly</a></li>
+                                        <li><a href="#">American Derby Polo Club</a></li>
+                                        <li><a href="#">American Tourister</a></li>
+                                        <li><a href="#">Andrew Hill</a></li>
+                                        <li><a href="#">Arrow</a></li>
+                                        <li><a href="#">Asics</a></li>
+                                        <li><a href="#">Aurelia</a></li>
+                                        <li><a href="#">Baggit</a></li>
+                                        <li><a href="#">Biba</a></li>
+                                    </ul>
+                                </div>
+                                <div class="links">
+                                    <ul>
+                                        <li><a href="#">AND</a></li>
+                                        <li><a href="#">Adidas</a></li>
+                                        <li><a href="#">Adidas Orignals</a></li>
+                                        <li><a href="#">Allen Solly</a></li>
+                                        <li><a href="#">American Derby Polo Club</a></li>
+                                        <li><a href="#">American Tourister</a></li>
+                                        <li><a href="#">Andrew Hill</a></li>
+                                        <li><a href="#">Arrow</a></li>
+                                        <li><a href="#">Asics</a></li>
+                                        <li><a href="#">Aurelia</a></li>
+                                        <li><a href="#">Baggit</a></li>
+                                        <li><a href="#">Biba</a></li>
+                                    </ul>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div> <!-- footer-section2 -->
+                                
+                                <div class="footer-section3">
+                                    <div class="fs3-block fs3-1">
+                                        <div class="block-title"><strong><span>SECURE SHOPPING</span></strong></div>
+                                        <ul>
+                                            <li><img src="images/rapid-ssl.png" alt="rapid ssl"></li>
+                                            <li><img src="images/norton.png" alt="norton"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="fs3-block fs3-2">
+                                        <div class="block-title"><strong><span>PAYMENT OPTIONS</span></strong></div>
+                                        <ul>
+                                            <li><img src="images/visa.jpg" alt="visa"></li>
+                                            <li><img src="images/mastro.jpg" alt="mastro"></li>
+                                            <li><img src="images/master-card.jpg" alt="mastercard"></li>
+                                            <li><img src="images/money.jpg" alt="money"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="fs3-block fs3-3">
+                                        <div class="block-title"><strong><span>SHIPPING PARTNERS</span></strong></div>
+                                        <ul>
+                                            <li><img src="images/fedex.jpg" alt="fedex"></li>
+                                            <li><img src="images/dtdc.jpg" alt="dtdc"></li>
+                                            <li><img src="images/first-flight.jpg" alt="first-flight"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div> <!-- footer-section3 -->
+                                    <div class="footer-section4">
+                                        <div class="center-menu">
+                                            <div class="center-menu-one">
+                                                <div class="center-menu-two">
+                                                    <ul class="footer-menu">
+                                                        <li><a href="#">Media Centre</a></li>
+                                                        <li><a href="#">Career</a></li>
+                                                        <li><a href="#">Privacy Policy</a></li>
+                                                        <li><a href="#">Terms & Conditions</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <address class="copyright">Copyright &copy; 2014 9Hangers. All Rights Reserved.</address>
+                                        <div class="clearfix"></div>
+                                    </div> <!-- footer-section4 -->
+                    </div>
+                </div> <!-- footer-container -->
+            </footer>
+        </div>
+       
+    </body>
+</html>
